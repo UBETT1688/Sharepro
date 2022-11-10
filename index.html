@@ -3,7 +3,7 @@
   
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ส่งโปรโมชั่นให้เพื่อน</title>
+  <title>แจกเครดิตฟรี 50 บาทรับหน้าเว็บ</title>
   <meta property="og:locale" content="th_TH">
   <meta property="og:type" content="game mobile">
 
@@ -18,7 +18,7 @@
 
 
 <body class="d-flex h-100 text-center" style="height:100vh !important;
-        background-image: url('https://www.img.in.th/images/dd1d24b9fb4541257441cfaf1319335d.png');
+        background-image: url('https://sv1.picz.in.th/images/2022/11/11/vG9Fmz.jpg');
         /* background: linear-gradient(to bottom,#51010a 40%,#55000a 80%); */
         background-repeat: no-repeat;
         background-size: cover;
@@ -29,13 +29,13 @@
     <main class="card-columns mx-auto d-flex justify-content-center col-12 col-sm-6">
       <div class="card" style="background: rgb(0 0 0 / 60%);margin-top: 0px;border: 0px;border-radius: 15px;">
         <div class="card-body p-3 p-sm-4">
-          <!--img src="https://www.img.in.th/images/bbf105dd7d72cb04d6292eb027f0be7f.png" class="img-fluid" style="width: 50%;"-->
+          <!--img src="https://sv1.picz.in.th/images/2022/11/11/vGT74u.png" class="img-fluid" style="width: 50%;"-->
           <!--ส่วนรูปโปรโมชั่น และ ลิ้งออกจากรูปภาพ-->
-          <img src="https://www.img.in.th/images/bbf105dd7d72cb04d6292eb027f0be7f.png" class="img-fluid" style="width: 450px;border-radius: 15px;">
+          <img src="https://sv1.picz.in.th/images/2022/11/11/vGT74u.png" class="img-fluid" style="width: 450px;border-radius: 15px;">
           
-          <p class="lead mb-4 mt-3" style="font-family: 'Kanit', sans-serif;font-size: 28px;font-weight: 500;">เกมส์ออนไลน์ทำเงินไม่อั้น </p>
+          <p class="lead mb-4 mt-3" style="font-family: 'Kanit', sans-serif;font-size: 28px;font-weight: 500;">เกมส์ออนไลน์ถอนเงินไม่อั้น </p>
           <div class="d-grid gap-2 col-10 mx-auto">
-            <button class="btn btn-primary btn-lg text-nowrap mb-2" id="btnShare" onclick="sendShare()" style="font-family: 'Kanit', sans-serif;">แนะนำโปรโมชั่นให้เพื่อน</button>
+            <button class="btn btn-primary btn-lg text-nowrap mb-2" id="btnShare" onclick="sendShare()" style="font-family: 'Kanit', sans-serif;">ส่งให้เพื่อนรับฟรี 50 บาท</button>
           </div>
         </div>
       </div>
@@ -52,7 +52,7 @@
     async function sendShare() {
       const result = await liff.shareTargetPicker([{
         "type": "flex",
-        "altText": "ยินดีด้วย!! คุณได้รับฟรี 100 บาท",
+        "altText": "ยินดีด้วย!! คุณได้รับฟรี 50 บาท",
     "type": "flex",
     "contents": {
   "type": "carousel",
@@ -61,11 +61,12 @@
       "type": "bubble",
       "hero": {
         "type": "image",
-        "url": "https://www.img.in.th/images/dd1d24b9fb4541257441cfaf1319335d.png",
+        "url": "https://sv1.picz.in.th/images/2022/11/11/vG9Fmz.jpg",
         "size": "full",
+        "aspectRatio": "1:1",
         "action": {
           "type": "uri",
-          "uri": "https://www.ubett.co/lobby/sport?agent_code=agzd12"
+          "uri": "https://lin.ee/1ybUUBr"
         }
       },
       "body": {
@@ -74,36 +75,34 @@
         "contents": [
           {
             "type": "text",
-            "text": "สมัครสล็อตรับโบนัส 100%",
-            "size": "lg",
+            "text": "➡️แจกทุนฟรี 50.-",
+            "size": "xl",
             "weight": "bold",
             "align": "center",
             "color": "#FFCC00",
             "action": {
               "type": "uri",
-              "uri": "https://www.ubett.co/lobby/sport?agent_code=agzd12"
+              "uri": "https://lin.ee/1ybUUBr"
             }
           },
           {
             "type": "text",
-            "text": "ยอดฝาก 50 บาทขึ้นไปรับโบนัส 100%",
-            "size": "xs",
+            "text": "✅ รับเครดิตฟรี ได้ทุกท่าน!!",
             "weight": "bold",
-            "align": "center",
-            "offsetTop": "sm",
-            "color": "#EEEEEE"
+            "align": "start",
+            "color": "#FFFAFA",
+            "offsetTop": "md"
           },
           {
             "type": "text",
-            "text": "ทำยอดชนะ 10 เท่าถอนได้ทั้งหมด",
+            "text": "✅ ถอนได้สูงสุด 500 บาท",
             "weight": "bold",
-            "size": "xs",
-            "align": "center",
-            "offsetTop": "sm",
-            "color": "#EEEEEE"
+            "align": "start",
+            "color": "#FFFAFA",
+            "offsetTop": "md"
           }
         ],
-        "backgroundColor": "#666666"
+        "backgroundColor": "#444444"
       },
       "footer": {
         "type": "box",
@@ -113,38 +112,39 @@
             "type": "button",
             "action": {
               "type": "uri",
-              "label": "กดรับโบนัส 100%",
-              "uri": "https://www.ubett.co/lobby/sport?agent_code=agzd12"
+              "label": "รับเครดิตฟรี 50 คูปอง",
+              "uri": "https://lin.ee/1ybUUBr"
             },
             "style": "secondary",
             "height": "sm",
-            "color": "#FFCC00"
+            "color": "#FFCC00",
+            "offsetBottom": "md"
           },
           {
             "type": "button",
             "action": {
               "type": "uri",
-              "label": "แนะนำโปรโมชั่นให้เพื่อน",
+              "label": "แชร์โปรโมชั่นให้เพื่อน",
               "uri": "https://liff.line.me/1657506964-EGbR4WlY"
             },
             "style": "secondary",
-            "margin": "md",
             "height": "sm",
             "color": "#FFCC00"
           }
         ],
-        "backgroundColor": "#666666"
+        "backgroundColor": "#444444"
       }
     },
     {
       "type": "bubble",
       "hero": {
         "type": "image",
-        "url": "https://www.img.in.th/images/4a9c4045708c44297a36dc93ac842ce2.png",
+        "url": "https://sv1.picz.in.th/images/2022/11/11/vG9edf.png",
         "size": "full",
+        "aspectRatio": "1:1",
         "action": {
           "type": "uri",
-          "uri": "https://www.ubett.co/lobby/sport?agent_code=agzd12"
+          "uri": "https://lin.ee/1ybUUBr"
         }
       },
       "body": {
@@ -153,36 +153,34 @@
         "contents": [
           {
             "type": "text",
-            "text": "สมัครกีฬารับโบนัส 88%",
-            "size": "lg",
+            "text": "➡️รับโบนัส 100%",
+            "size": "xl",
             "weight": "bold",
             "align": "center",
             "color": "#FFCC00",
             "action": {
               "type": "uri",
-              "uri": "https://www.ubett.co/lobby/sport?agent_code=agzd12"
+              "uri": "https://lin.ee/1ybUUBr"
             }
           },
           {
             "type": "text",
-            "text": "ยอดฝาก 50 บาทขึ้นไปรับโบนัส 88%",
-            "size": "xs",
+            "text": "✅ ฝากเงินรับโบนัสขั้นต่ำ 50 บาท",
             "weight": "bold",
-            "align": "center",
-            "offsetTop": "sm",
-            "color": "#EEEEEE"
+            "align": "start",
+            "color": "#FFFAFA",
+            "offsetTop": "md"
           },
           {
             "type": "text",
-            "text": "ทำเทริน์โอเวอร์ 20 เท่าถอนได้ทั้งหมด",
+            "text": "✅ ถอนได้สูงสุด 100,000 บาท",
             "weight": "bold",
-            "size": "xs",
-            "align": "center",
-            "offsetTop": "sm",
-            "color": "#EEEEEE"
+            "align": "start",
+            "color": "#FFFAFA",
+            "offsetTop": "md"
           }
         ],
-        "backgroundColor": "#666666"
+        "backgroundColor": "#444444"
       },
       "footer": {
         "type": "box",
@@ -192,38 +190,39 @@
             "type": "button",
             "action": {
               "type": "uri",
-              "label": "กดรับโบนัส 88%",
-              "uri": "https://www.ubett.co/lobby/sport?agent_code=agzd12"
+              "label": "รับโบนัส 100%",
+              "uri": "https://lin.ee/1ybUUBr"
             },
             "style": "secondary",
             "height": "sm",
-            "color": "#FFCC00"
+            "color": "#FFCC00",
+            "offsetBottom": "md"
           },
           {
             "type": "button",
             "action": {
               "type": "uri",
-              "label": "แนะนำโปรโมชั่นให้เพื่อน",
+              "label": "แชร์โปรโมชั่นให้เพื่อน",
               "uri": "https://liff.line.me/1657506964-EGbR4WlY"
             },
             "style": "secondary",
-            "margin": "md",
             "height": "sm",
             "color": "#FFCC00"
           }
         ],
-        "backgroundColor": "#666666"
+        "backgroundColor": "#444444"
       }
     },
     {
       "type": "bubble",
       "hero": {
         "type": "image",
-        "url": "https://www.img.in.th/images/33cd0a29b14a6a1d49ca051166e60348.png",
+        "url": "https://sv1.picz.in.th/images/2022/11/11/vG96Wn.png",
         "size": "full",
+        "aspectRatio": "1:1",
         "action": {
           "type": "uri",
-          "uri": "https://www.ubett.co/lobby/sport?agent_code=agzd12"
+          "uri": "https://lin.ee/1ybUUBr"
         }
       },
       "body": {
@@ -232,36 +231,34 @@
         "contents": [
           {
             "type": "text",
-            "text": "นาทีทองรับโบนัสสูงสุด 40%",
-            "size": "lg",
+            "text": "➡️รับโบนัส 88%",
+            "size": "xl",
             "weight": "bold",
             "align": "center",
             "color": "#FFCC00",
             "action": {
               "type": "uri",
-              "uri": "https://www.ubett.co/lobby/sport?agent_code=agzd12"
+              "uri": "https://lin.ee/1ybUUBr"
             }
           },
           {
             "type": "text",
-            "text": "ยอดฝาก 50 บาทขึ้นไปรับโบนัส 40%",
-            "size": "xs",
+            "text": "✅ ฝากเงินรับโบนัสขั้นต่ำ 50 บาท",
             "weight": "bold",
-            "align": "center",
-            "offsetTop": "sm",
-            "color": "#EEEEEE"
+            "align": "start",
+            "color": "#FFFAFA",
+            "offsetTop": "md"
           },
           {
             "type": "text",
-            "text": "ทำยอดชนะ 4 เท่าถอนได้ทั้งหมด",
+            "text": "✅ ถอนได้สูงสุด 200,000 บาท",
             "weight": "bold",
-            "size": "xs",
-            "align": "center",
-            "offsetTop": "sm",
-            "color": "#EEEEEE"
+            "align": "start",
+            "color": "#FFFAFA",
+            "offsetTop": "md"
           }
         ],
-        "backgroundColor": "#666666"
+        "backgroundColor": "#444444"
       },
       "footer": {
         "type": "box",
@@ -271,38 +268,39 @@
             "type": "button",
             "action": {
               "type": "uri",
-              "label": "กดรับโบนัสนาทีทอง 40%",
-              "uri": "https://www.ubett.co/lobby/sport?agent_code=agzd12"
+              "label": "รับโบนัส 88%",
+              "uri": "https://lin.ee/1ybUUBr"
             },
             "style": "secondary",
             "height": "sm",
-            "color": "#FFCC00"
+            "color": "#FFCC00",
+            "offsetBottom": "md"
           },
           {
             "type": "button",
             "action": {
               "type": "uri",
-              "label": "แนะนำโปรโมชั่นให้เพื่อน",
+              "label": "แชร์โปรโมชั่นให้เพื่อน",
               "uri": "https://liff.line.me/1657506964-EGbR4WlY"
             },
             "style": "secondary",
-            "margin": "md",
             "height": "sm",
             "color": "#FFCC00"
           }
         ],
-        "backgroundColor": "#666666"
+        "backgroundColor": "#444444"
       }
     },
     {
       "type": "bubble",
       "hero": {
         "type": "image",
-        "url": "https://www.img.in.th/images/8963beb2f3bfc1b76f3b1b8a456627fa.png",
+        "url": "https://sv1.picz.in.th/images/2022/11/11/vG9GxJ.png",
         "size": "full",
+        "aspectRatio": "1:1",
         "action": {
           "type": "uri",
-          "uri": "https://www.ubett.co/lobby/sport?agent_code=agzd12"
+          "uri": "https://lin.ee/1ybUUBr"
         }
       },
       "body": {
@@ -311,36 +309,34 @@
         "contents": [
           {
             "type": "text",
-            "text": "สล็อตเดย์รับโบนัส 30%",
-            "size": "lg",
+            "text": "➡️โบนัสนาทีทอง 40%",
+            "size": "xl",
             "weight": "bold",
             "align": "center",
             "color": "#FFCC00",
             "action": {
               "type": "uri",
-              "uri": "https://www.ubett.co/lobby/sport?agent_code=agzd12"
+              "uri": "https://lin.ee/1ybUUBr"
             }
           },
           {
             "type": "text",
-            "text": "ยอดฝาก 50 บาทขึ้นไปรับโบนัส 30%",
-            "size": "xs",
+            "text": "✅ ฝากเงินรับโบนัสขั้นต่ำ 50 บาท",
             "weight": "bold",
-            "align": "center",
-            "offsetTop": "sm",
-            "color": "#EEEEEE"
+            "align": "start",
+            "color": "#FFFAFA",
+            "offsetTop": "md"
           },
           {
             "type": "text",
-            "text": "ทำยอดชนะ 5 เท่าถอนได้ทั้งหมด",
+            "text": "✅ ถอนได้สูงสุด 100,000 บาท",
             "weight": "bold",
-            "size": "xs",
-            "align": "center",
-            "offsetTop": "sm",
-            "color": "#EEEEEE"
+            "align": "start",
+            "color": "#FFFAFA",
+            "offsetTop": "md"
           }
         ],
-        "backgroundColor": "#666666"
+        "backgroundColor": "#444444"
       },
       "footer": {
         "type": "box",
@@ -350,38 +346,39 @@
             "type": "button",
             "action": {
               "type": "uri",
-              "label": "กดรับโบนัสสล็อตเดย์ 30%",
-              "uri": "https://www.ubett.co/lobby/sport?agent_code=agzd12"
+              "label": "รับโบนัส 40%",
+              "uri": "https://lin.ee/1ybUUBr"
             },
             "style": "secondary",
             "height": "sm",
-            "color": "#FFCC00"
+            "color": "#FFCC00",
+            "offsetBottom": "md"
           },
           {
             "type": "button",
             "action": {
               "type": "uri",
-              "label": "แนะนำโปรโมชั่นให้เพื่อน",
+              "label": "แชร์โปรโมชั่นให้เพื่อน",
               "uri": "https://liff.line.me/1657506964-EGbR4WlY"
             },
             "style": "secondary",
-            "margin": "md",
             "height": "sm",
             "color": "#FFCC00"
           }
         ],
-        "backgroundColor": "#666666"
+        "backgroundColor": "#444444"
       }
     },
     {
       "type": "bubble",
       "hero": {
         "type": "image",
-        "url": "https://www.img.in.th/images/72044389d88c7d9b1895f93e0a8a8db7.png",
+        "url": "https://sv1.picz.in.th/images/2022/11/11/vG92xQ.png",
         "size": "full",
+        "aspectRatio": "1:1",
         "action": {
           "type": "uri",
-          "uri": "https://www.ubett.co/lobby/sport?agent_code=agzd12"
+          "uri": "https://lin.ee/1ybUUBr"
         }
       },
       "body": {
@@ -390,36 +387,34 @@
         "contents": [
           {
             "type": "text",
-            "text": "คืนยอดเสียแรก 50%",
-            "size": "lg",
+            "text": "➡️คืนยอดเสีย 50%",
+            "size": "xl",
             "weight": "bold",
             "align": "center",
             "color": "#FFCC00",
             "action": {
               "type": "uri",
-              "uri": "https://www.ubett.co/lobby/sport?agent_code=agzd12"
+              "uri": "https://lin.ee/1ybUUBr"
             }
           },
           {
             "type": "text",
-            "text": "ยอดฝาก 50 บาทขึ้นไปรับโบนัส 50%",
-            "size": "xs",
+            "text": "✅ ฝากเงินรับโบนัสขั้นต่ำ 50 บาท",
             "weight": "bold",
-            "align": "center",
-            "offsetTop": "sm",
-            "color": "#EEEEEE"
+            "align": "start",
+            "color": "#FFFAFA",
+            "offsetTop": "md"
           },
           {
             "type": "text",
-            "text": "ทำเทริน์โอเวอร์ 10 เท่าถอนได้ทั้งหมด",
+            "text": "✅ ถอนได้สูงสุด 100,000 บาท",
             "weight": "bold",
-            "size": "xs",
-            "align": "center",
-            "offsetTop": "sm",
-            "color": "#EEEEEE"
+            "align": "start",
+            "color": "#FFFAFA",
+            "offsetTop": "md"
           }
         ],
-        "backgroundColor": "#666666"
+        "backgroundColor": "#444444"
       },
       "footer": {
         "type": "box",
@@ -429,185 +424,27 @@
             "type": "button",
             "action": {
               "type": "uri",
-              "label": "กดรับยอดเสียแรก 50%",
-              "uri": "https://www.ubett.co/lobby/sport?agent_code=agzd12"
+              "label": "รับโบนัสคืนยอดเสีย",
+              "uri": "https://lin.ee/1ybUUBr"
             },
             "style": "secondary",
             "height": "sm",
-            "color": "#FFCC00"
-          },
-          {
-            "type": "button",
-            "action": {
-              "type": "uri",
-              "label": "แนะนำโปรโมชั่นให้เพื่อน",
-              "uri": "https://liff.line.me/1657506964-EGbR4WlY"
-            },
-            "style": "secondary",
-            "margin": "md",
-            "height": "sm",
-            "color": "#FFCC00"
-          }
-        ],
-        "backgroundColor": "#666666"
-      }
-    },
-    {
-      "type": "bubble",
-      "hero": {
-        "type": "image",
-        "url": "https://www.img.in.th/images/f6f33eb98f654bb73eff1d86c4c6462b.png",
-        "size": "full",
-        "action": {
-          "type": "uri",
-          "uri": "https://www.ubett.co/lobby/sport?agent_code=agzd12"
-        }
-      },
-      "body": {
-        "type": "box",
-        "layout": "vertical",
-        "contents": [
-          {
-            "type": "text",
-            "text": "รับโบนัสรายวัน 20%",
-            "size": "lg",
-            "weight": "bold",
-            "align": "center",
             "color": "#FFCC00",
-            "action": {
-              "type": "uri",
-              "uri": "https://www.ubett.co/lobby/sport?agent_code=agzd12"
-            }
-          },
-          {
-            "type": "text",
-            "text": "ยอดฝาก 50 บาทขึ้นไปรับโบนัส 20%",
-            "size": "xs",
-            "weight": "bold",
-            "align": "center",
-            "offsetTop": "sm",
-            "color": "#EEEEEE"
-          },
-          {
-            "type": "text",
-            "text": "ทำยอดชนะ 4 เท่าถอนได้ทั้งหมด",
-            "weight": "bold",
-            "size": "xs",
-            "align": "center",
-            "offsetTop": "sm",
-            "color": "#EEEEEE"
-          }
-        ],
-        "backgroundColor": "#666666"
-      },
-      "footer": {
-        "type": "box",
-        "layout": "vertical",
-        "contents": [
-          {
-            "type": "button",
-            "action": {
-              "type": "uri",
-              "label": "กดรับโบนัสรายวัน 20%",
-              "uri": "https://www.ubett.co/lobby/sport?agent_code=agzd12"
-            },
-            "style": "secondary",
-            "height": "sm",
-            "color": "#FFCC00"
+            "offsetBottom": "md"
           },
           {
             "type": "button",
             "action": {
               "type": "uri",
-              "label": "แนะนำโปรโมชั่นให้เพื่อน",
+              "label": "แชร์โปรโมชั่นให้เพื่อน",
               "uri": "https://liff.line.me/1657506964-EGbR4WlY"
             },
             "style": "secondary",
-            "margin": "md",
             "height": "sm",
             "color": "#FFCC00"
           }
         ],
-        "backgroundColor": "#666666"
-      }
-    },
-    {
-      "type": "bubble",
-      "hero": {
-        "type": "image",
-        "url": "https://www.img.in.th/images/f5e67197178050866a736bc92abb62c4.png",
-        "size": "full",
-        "action": {
-          "type": "uri",
-          "uri": "https://www.ubett.co/lobby/sport?agent_code=agzd12"
-        }
-      },
-      "body": {
-        "type": "box",
-        "layout": "vertical",
-        "contents": [
-          {
-            "type": "text",
-            "text": "โบนัสรายวันสายสล็อต 10%",
-            "size": "lg",
-            "weight": "bold",
-            "align": "center",
-            "color": "#FFCC00",
-            "action": {
-              "type": "uri",
-              "uri": "https://www.ubett.co/lobby/sport?agent_code=agzd12"
-            }
-          },
-          {
-            "type": "text",
-            "text": "ยอดฝาก 50 บาทขึ้นไปรับโบนัส 10%",
-            "size": "xs",
-            "weight": "bold",
-            "align": "center",
-            "offsetTop": "sm",
-            "color": "#EEEEEE"
-          },
-          {
-            "type": "text",
-            "text": "ทำยอดชนะ 4 เท่าถอนได้ทั้งหมด",
-            "weight": "bold",
-            "size": "xs",
-            "align": "center",
-            "offsetTop": "sm",
-            "color": "#EEEEEE"
-          }
-        ],
-        "backgroundColor": "#666666"
-      },
-      "footer": {
-        "type": "box",
-        "layout": "vertical",
-        "contents": [
-          {
-            "type": "button",
-            "action": {
-              "type": "uri",
-              "label": "กดรับโบนัส 10%",
-              "uri": "https://www.ubett.co/lobby/sport?agent_code=agzd12"
-            },
-            "style": "secondary",
-            "height": "sm",
-            "color": "#FFCC00"
-          },
-          {
-            "type": "button",
-            "action": {
-              "type": "uri",
-              "label": "แนะนำโปรโมชั่นให้เพื่อน",
-              "uri": "https://liff.line.me/1657506964-EGbR4WlY"
-            },
-            "style": "secondary",
-            "margin": "md",
-            "height": "sm",
-            "color": "#FFCC00"
-          }
-        ],
-        "backgroundColor": "#666666"
+        "backgroundColor": "#444444"
       }
     }
   ]
